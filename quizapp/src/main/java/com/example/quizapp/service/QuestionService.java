@@ -10,4 +10,8 @@ public class QuestionService {
 	public void getAllQuestions() {
 		
 	}
+	
+public void getAllQuestions1() {
+		
+	}
 }
