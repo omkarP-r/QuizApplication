@@ -7,4 +7,7 @@ public class QuestionService {
 	
 	
 
+	public void getAllQuestions() {
+		
+	}
 }
