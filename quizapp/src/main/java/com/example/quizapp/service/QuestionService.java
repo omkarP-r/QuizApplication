@@ -18,4 +18,8 @@ public class QuestionService {
 public List<Question> getAllQuestions() {
 		return (List<Question>) qr.findAll();
 	}
+
+public Integer deleteQuestion() {
+	return 1;
+}
 }
