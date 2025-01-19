@@ -22,4 +22,8 @@ public List<Question> getAllQuestions() {
 public Integer deleteQuestion() {
 	return 1;
 }
+
+public Integer updateQuestion() {
+	return 1;
+}
 }
