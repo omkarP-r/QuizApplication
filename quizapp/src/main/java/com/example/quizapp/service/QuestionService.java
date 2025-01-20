@@ -27,5 +27,11 @@ public Integer updateQuestion() {
 	return 1;
 }
 
+public List<Question> getQuetionByCategory(String category) {
+	// TODO Auto-generated method stub
+	return qr.findByCategory(category);
+	
+}
+
 
 }
