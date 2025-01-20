@@ -22,5 +22,9 @@ public class QuestionController {
 		return qservice.getAllQuestions();
 		
 	}
+	
+	public Integer deleteQuestion() {
+		return 2;
+	}
 
 }
