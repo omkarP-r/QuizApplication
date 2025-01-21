@@ -33,5 +33,11 @@ public List<Question> getQuetionByCategory(String category) {
 	
 }
 
+public String addQuestion(Question question) {
+	// TODO Auto-generated method stub
+	 qr.save(question);
+	 return "success";
+}
+
 
 }

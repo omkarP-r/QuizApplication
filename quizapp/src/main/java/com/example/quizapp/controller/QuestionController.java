@@ -31,6 +31,10 @@ public class QuestionController {
 		
 	}
 	
+	public String addQuestion(Question question) {
+		return qservice.addQuestion(question);
+	}
+	
 	public Integer deleteQuestion() {
 		return 2;
 	}
