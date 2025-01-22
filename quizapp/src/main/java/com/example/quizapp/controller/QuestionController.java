@@ -35,8 +35,8 @@ public class QuestionController {
 		return qservice.addQuestion(question);
 	}
 	
-	public Integer deleteQuestion() {
-		return 2;
+	public Integer deleteQuestion(Integer id) {
+		return qservice.deleteQuestion(id);
 	}
 
 }

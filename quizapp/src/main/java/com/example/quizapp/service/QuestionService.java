@@ -19,7 +19,7 @@ public List<Question> getAllQuestions() {
 		return (List<Question>) qr.findAll();
 	}
 
-public Integer deleteQuestion() {
+public Integer deleteQuestion(Integer id) {
 	return 1;
 }
 
@@ -38,6 +38,8 @@ public String addQuestion(Question question) {
 	 qr.save(question);
 	 return "success";
 }
+
+
 
 
 }
