@@ -16,7 +16,7 @@ public class QuestionService {
 	
 	
 public List<Question> getAllQuestions() {
-		return (List<Question>) qr.findAll();
+		return  qr.findAll();
 	}
 
 public Integer deleteQuestion(Integer id) {
