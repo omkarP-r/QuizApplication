@@ -19,8 +19,12 @@ public List<Question> getAllQuestions() {
 		return  qr.findAll();
 	}
 
-public Integer deleteQuestion(Integer id) {
-	return 1;
+public String deleteQuestion(Integer id) {
+	
+	qr.deleteById(id);
+	
+	return "Success";
+	
 }
 
 public Integer updateQuestion() {
