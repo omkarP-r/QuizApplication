@@ -13,6 +13,6 @@ import com.example.quizapp.entity.Question;
 public interface QuestionRepo extends JpaRepository<Question, Integer> {
 
 	List<Question> findByCategory(String category);
-	               
+	          String   deleteByCategory(String category);
 
 }

@@ -42,5 +42,13 @@ public class QuestionController {
 		 qservice.deleteQuestion(id);
 		 return "Success";
 	}
+	
+	
+	@DeleteMapping("delete/{category}")
+	public String deleteQuestionByCategory(@PathVariable String category ) {
+		 qservice.deleteQuestionByCategory(category);
+		 return "Success";
+	}
+	
 
 }

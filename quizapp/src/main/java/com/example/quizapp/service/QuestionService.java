@@ -43,6 +43,13 @@ public String addQuestion(Question question) {
 	 return "success";
 }
 
+public String deleteQuestionByCategory(String category) {
+	// TODO Auto-generated method stub
+	qr.deleteByCategory(category);
+	return "success";
+	
+}
+
 
 
 
