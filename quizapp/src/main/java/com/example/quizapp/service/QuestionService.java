@@ -27,8 +27,8 @@ public String deleteQuestion(Integer id) {
 	
 }
 
-public Integer updateQuestion() {
-	return 1;
+public String updateQuestion(Integer id) {
+	return "Question updated with id: "+id;
 }
 
 public List<Question> getQuetionByCategory(String category) {

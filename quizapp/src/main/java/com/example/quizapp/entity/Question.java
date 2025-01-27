@@ -1,5 +1,9 @@
 package com.example.quizapp.entity;
 
+import org.antlr.v4.runtime.misc.NotNull;
+import org.hibernate.annotations.NotFound;
+import org.hibernate.annotations.processing.Pattern;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -17,6 +21,7 @@ public class Question {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name="id")
+	
 	private Integer id;
 	@Column(name="question_title")
 	private String questionTitle;
